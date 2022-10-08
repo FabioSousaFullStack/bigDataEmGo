@@ -18,4 +18,6 @@
 - Realizar um jogo e comparar com os jogos já sorteados.
 
 
-
+## Links úteis
+### Referência
+Base: https://github.com/rocketlaunchr/dataframe-go.git
