@@ -21,3 +21,10 @@
 ## Links úteis
 ### Referência
 Base: https://github.com/rocketlaunchr/dataframe-go.git
+
+## Assuntos a serem aprofundados.
+
+- go.mod
+- Go init
+- Go tidy
+- go.sum
