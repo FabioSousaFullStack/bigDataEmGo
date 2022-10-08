@@ -2,12 +2,17 @@
 
 ## Objetivo
 
-Realizar estudo de bigdata utilizando a linguagem Go.
+Realizar estudo e analise de resultados da mega sena na linguagem Go.
 
-## Fonte das informações
+## Intuito com a pesquisa
 
-Os dados trabalhados desta pesquisa, foram baseados nas informações fornecidas pelo IBGE.
+Aprender e praticar comandos de análise de dados em Go.
 
-## Intuito da pesquisa
+## O que será feito.
 
-Aprender e praticar comandos de big datas em Go.
+- Leitura de arquivos xlsv
+- Manipulação da regra de negócio, com os dados lidos no arquivo
+    - Ler a quantidade de sorteios realizados, até o momento da pesquisa.
+    - Ler a quantidade de repetições dos números.
+        - Ler a quantidade de vezes que o número apareceu naquela posição.
+        - Ler a quantidade de vezes que o número apareceu em todos os sorteios, independete da ordem
