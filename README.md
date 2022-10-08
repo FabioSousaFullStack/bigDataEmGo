@@ -15,4 +15,7 @@ Aprender e praticar comandos de análise de dados em Go.
     - Ler a quantidade de sorteios realizados, até o momento da pesquisa.
     - Ler a quantidade de repetições dos números.
         - Ler a quantidade de vezes que o número apareceu naquela posição.
-        - Ler a quantidade de vezes que o número apareceu em todos os sorteios, independete da ordem
+        - Ler a quantidade de vezes que o número apareceu em todos os sorteios, independete da ordem.
+    - Realizar um jogo e comparar com os jogos já sorteados.
+
+
