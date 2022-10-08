@@ -14,7 +14,7 @@
     - Ler a quantidade de sorteios realizados, até o momento da pesquisa.
     - Ler a frequência dos números nos sorteios.
         - Frequência por posição.
-        - Frequeência por sorteios, independete da ordem.
+        - Frequência por sorteios, independete da ordem.
 - Realizar um jogo e comparar com os jogos já sorteados.
 
 
