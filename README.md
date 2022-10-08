@@ -12,7 +12,7 @@
 - Leitura de arquivos csv
 - Manipulação da regra de negócio, com os dados lidos no arquivo
     - Ler a quantidade de sorteios realizados, até o momento da pesquisa.
-    - Ler a freqência dos números nos sorteios.
+    - Ler a frequência dos números nos sorteios.
         - Frequência por posição.
         - Frequeência por sorteios, independete da ordem.
 - Realizar um jogo e comparar com os jogos já sorteados.
