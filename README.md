@@ -9,6 +9,7 @@
 
 ## O que será feito.
 
+- Abrir o arquivo com o pacote os
 - Leitura de arquivos csv
 - Manipulação da regra de negócio, com os dados lidos no arquivo
     - Ler a quantidade de sorteios realizados, até o momento da pesquisa.
