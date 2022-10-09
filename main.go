@@ -2,12 +2,24 @@ package main
 
 import (
 	"fmt"
-	"github.com/go-gota/gota"
+	"log"
+	"os"
+	"github.com/go-gota/gota/dataframe"
 	
 )
 
 
 func main() {
 
-	fmt.Println("Olá mundo!")
+	file, err := os.Open("./resultadosmega.csv")
+
+	if err != nil{
+		log.Fatal(err)
+	}
+
+	df := dataframe.ReadCSV(file)
+
+	fmt.Println(df)
+
+	file.Close()
 }
