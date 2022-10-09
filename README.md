@@ -21,7 +21,7 @@
 
 ## Links úteis
 ### Referência
-Base: https://github.com/rocketlaunchr/dataframe-go.git
+Base: https://github.com/go-gota/gota
 
 ## Assuntos a serem aprofundados.
 
