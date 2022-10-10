@@ -6,16 +6,17 @@
 - Utilizar informações provindas principalmente de um repositório do github.
 - Aprender e praticar comandos de análise de dados em Go.
 
+## Como os jogos estão dispostos
+
+- O jogos da mega senha estão dipostos resultado.csv
+- Os resultados estão em ordem cresecente
 
 ## O que será feito.
 
 - Abrir o arquivo com o pacote os. 💹
 - Leitura de arquivos csv. 💹
-- Manipulação da regra de negócio, com os dados lidos no arquivo
-    - Ler a quantidade de sorteios realizados, até o momento da pesquisa.
-    - Ler a frequência dos números nos sorteios.
-        - Frequência por posição.
-        - Frequência por sorteios, independete da ordem.
+- Iniciar informando quantos jogos serão analisados 💹
+- Ler a frequência dos números nos sorteios.
 - Realizar um jogo e comparar com os jogos já sorteados.
 
 
