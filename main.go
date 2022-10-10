@@ -21,5 +21,7 @@ func main() {
 
 	fmt.Println(df)
 
+	fmt.Println(df.Dims())
+
 	file.Close()
 }
