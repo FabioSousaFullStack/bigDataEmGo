@@ -3,7 +3,7 @@
 ## Objetivo
 
 - Realizar estudo e análise de resultados da mega sena na linguagem.
-- Utilizar informações provindas principalmente de um repositório do github.
+- Utilizar biblioteca de um repositório do github.
 - Aprender e praticar comandos de análise de dados em Go.
 
 ## Como os jogos estão dispostos
