@@ -18,10 +18,8 @@ func main() {
 	}
 
 	df := dataframe.ReadCSV(file)
-
-	fmt.Println(df)
-
-	fmt.Println(df.Dims())
+	fmt.Println("Serão analisados ",df.Nrow(), " jogos")
+	fmt.Println(df.Describe())
 
 	file.Close()
 }
