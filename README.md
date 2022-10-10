@@ -8,12 +8,12 @@
 
 ## Como os jogos estão dispostos
 
-- O jogos da mega senha estão dipostos resultado.csv
+- O jogos da mega sena estão dipostos no arquivo resultado.csv
 - Os resultados estão em ordem cresecente
 
 ## O que será feito.
 
-- Abrir o arquivo com o pacote os. 💹
+- Abrir o arquivo externo de resultados. 💹
 - Leitura de arquivos csv. 💹
 - Iniciar informando quantos jogos serão analisados 💹
 - Ler a frequência dos números nos sorteios.
