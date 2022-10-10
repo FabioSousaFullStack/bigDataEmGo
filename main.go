@@ -19,7 +19,14 @@ func main() {
 
 	df := dataframe.ReadCSV(file)
 	fmt.Println("Serão analisados ",df.Nrow(), " jogos")
-	fmt.Println(df.Describe())
+	
+	
+	for i := 0; i <= df.Nrow(); i++{
+		row := df.Subset(i)
+		fmt.Println(row)
+	}
+	
+	
 
 	file.Close()
 }
