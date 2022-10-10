@@ -11,7 +11,7 @@ import (
 
 func main() {
 
-	file, err := os.Open("./resultadosmega.csv")
+	file, err := os.Open("./resultados.csv")
 
 	if err != nil{
 		log.Fatal(err)
