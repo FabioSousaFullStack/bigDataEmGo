@@ -21,9 +21,9 @@ func main() {
 	df := dataframe.ReadCSV(file)
 	fmt.Println("Serão analisados ",df.Nrow(), " jogos")
 
-	sub := df.Subset([]int{0, 2})
+	sel1 := df.Select([]int{0, 2})
 
-	fmt.Println(sub)
+	fmt.Println(sel1)
 	
 
 	
