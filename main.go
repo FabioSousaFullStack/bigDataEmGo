@@ -19,14 +19,16 @@ func main() {
 
 	df := dataframe.ReadCSV(file)
 	fmt.Println("Serão analisados ",df.Nrow(), " jogos")
-	
-	
-	for i := 0; i <= df.Nrow(); i++{
-		row := df.Subset(i)
-		fmt.Println(row)
+
+	numero := 3
+
+	if df.Elem(4,2) == numero.Elem() {
+		fmt.Println("São iguais")
+	}else{
+		fmt.Println("São diferentes")
 	}
-	
 	
 
 	file.Close()
 }
+
