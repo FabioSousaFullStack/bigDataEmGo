@@ -4,8 +4,9 @@ import (
 	"fmt"
 	"log"
 	"os"
+
 	"github.com/go-gota/gota/dataframe"
-	
+	"github.com/go-gota/gota/series"
 )
 
 
@@ -21,12 +22,10 @@ func main() {
 	fmt.Println("Serão analisados ",df.Nrow(), " jogos")
 
 	
+	teste := df.Col("S1")
+	fmt.Println(teste)
 
-	if df.Elem(4,2) == df.Elem(3,2) {
-		fmt.Println("São iguais")
-	}else{
-		fmt.Println("São diferentes")
-	}
+	
 	
 
 	file.Close()
