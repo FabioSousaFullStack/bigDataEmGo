@@ -20,9 +20,9 @@ func main() {
 	df := dataframe.ReadCSV(file)
 	fmt.Println("Serão analisados ",df.Nrow(), " jogos")
 
-	numero := 3
+	
 
-	if df.Elem(4,2) == numero.Elem() {
+	if df.Elem(4,2) == df.Elem(3,2) {
 		fmt.Println("São iguais")
 	}else{
 		fmt.Println("São diferentes")
