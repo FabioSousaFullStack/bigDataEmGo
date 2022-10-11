@@ -30,3 +30,4 @@ Base: https://github.com/go-gota/gota
 - Go init
 - Go tidy
 - go.sum
+- Séries
