@@ -23,17 +23,20 @@
 
 💹 O sistema informará a frequência do número informado pelo usuário entre os sorteios.
 
-- Realizar um jogo e comparar com os jogos já sorteados.
 
 
 ## Links úteis
 ### Referência
 Base: https://github.com/go-gota/gota
 
-## Assuntos a serem aprofundados.
+## Aprendizado desenvolvido.
 
-- go.mod
-- Go init
-- Go tidy
-- go.sum
+- Leitura de documentação
+- Utilização dos pacotes
+    - github.com/go-gota/gota/dataframe
+    - github.com/go-gota/gota/series
+- Datafranes
 - Séries
+
+### Comandos
+
