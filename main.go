@@ -30,14 +30,35 @@ func main() {
 			Comparator: series.Eq,
 			Comparando: numeroescolhido,
 		},
-
+		dataframe.F{
+			Colname:    "S2",
+			Comparator: series.Eq,
+			Comparando: numeroescolhido,
+		},
+		dataframe.F{
+			Colname:    "S3",
+			Comparator: series.Eq,
+			Comparando: numeroescolhido,
+		},
+		dataframe.F{
+			Colname:    "S4",
+			Comparator: series.Eq,
+			Comparando: numeroescolhido,
+		},
+		dataframe.F{
+			Colname:    "S5",
+			Comparator: series.Eq,
+			Comparando: numeroescolhido,
+		},
+		dataframe.F{
+			Colname:    "S6",
+			Comparator: series.Eq,
+			Comparando: numeroescolhido,
+		},
+		
 )
 	
-	fmt.Println("O número 23 apareceu em ",fil.Nrow(), " dos jogos analisados")
-
-
-	
-	
+	fmt.Println("O número 23 apareceu em ",fil.Nrow(), " jogos analisados")
 
 	file.Close()
 }
