@@ -37,6 +37,7 @@ Base: https://github.com/go-gota/gota
     - github.com/go-gota/gota/series
 - Datafranes
 - Séries
+- Uso de filtros e agregações
 
-### Comandos
+
 
