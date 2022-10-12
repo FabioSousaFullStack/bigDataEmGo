@@ -20,6 +20,7 @@ func main() {
 
 	df := dataframe.ReadCSV(file)
 
+
 	fmt.Println("")
 	fmt.Println("---------------------------ANÁLISE DA MEGASENA-------------------------------")
 	fmt.Println("")
@@ -68,6 +69,8 @@ func main() {
 
 
 
+	
+	
 	fmt.Println("")
 	fmt.Println("----------------------------ANÁLISE DO NÚMERO ESCOLHIDO-----------------------------")
 	fmt.Println("")

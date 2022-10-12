@@ -19,9 +19,10 @@
 
 💹 Iniciar informando quantos jogos serão analisados 
 
- - O usuário fara o input de um número
+💹 O usuário fara o input de um número
 
 💹 O sistema informará a frequência do número informado pelo usuário entre os sorteios.
+
 - Realizar um jogo e comparar com os jogos já sorteados.
 
 
