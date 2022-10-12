@@ -19,21 +19,21 @@ func main() {
 	}
 
 	df := dataframe.ReadCSV(file)
-	fmt.Println("Serão analisados ",df.Nrow(), " jogos")
+	fmt.Println("Foram analisados ",df.Nrow(), " jogos")
 
+	numeroescolhido := 15
 	
 
 	fil := df.Filter(
 		dataframe.F{
 			Colname:    "S1",
 			Comparator: series.Eq,
-			Comparando: 23,
+			Comparando: numeroescolhido,
 		},
 
 )
 	
-	fmt.Println("O número 23 aparece em ",fil.Nrow(), "jogos")
-	
+	fmt.Println("O número 23 apareceu em ",fil.Nrow(), " dos jogos analisados")
 
 
 	
