@@ -13,10 +13,10 @@
 
 ## O que será feito.
 
-- Abrir o arquivo externo de resultados. 💹
-- Leitura de arquivos csv. 💹
-- Iniciar informando quantos jogos serão analisados 💹
-- Ler a frequência dos números nos sorteios.
+💹 Abrir o arquivo externo de resultados. 
+💹 Leitura de arquivos csv. 
+💹 Iniciar informando quantos jogos serão analisados 
+💹 Ler a frequência dos números nos sorteios.
 - Realizar um jogo e comparar com os jogos já sorteados.
 
 
