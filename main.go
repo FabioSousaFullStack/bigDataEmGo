@@ -6,7 +6,7 @@ import (
 	"os"
 
 	"github.com/go-gota/gota/dataframe"
-
+	"github.com/go-gota/gota/series"
 )
 
 
@@ -21,10 +21,20 @@ func main() {
 	df := dataframe.ReadCSV(file)
 	fmt.Println("Serão analisados ",df.Nrow(), " jogos")
 
-	sel1 := df.Select([]int{0, 2})
-
-	fmt.Println(sel1)
 	
+
+	fil := df.Filter(
+		dataframe.F{
+			Colname:    "S1",
+			Comparator: series.Eq,
+			Comparando: 23,
+		},
+
+)
+	
+	fmt.Println("O número 23 aparece em ",fil.Nrow(), "jogos")
+	
+
 
 	
 	
