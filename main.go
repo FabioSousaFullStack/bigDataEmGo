@@ -20,7 +20,6 @@ func main() {
 
 	df := dataframe.ReadCSV(file)
 
-
 	fmt.Println("")
 	fmt.Println("---------------------------ANÁLISE DA MEGASENA-------------------------------")
 	fmt.Println("")
@@ -87,8 +86,23 @@ func main() {
 
 	}	
 	fmt.Println("")
+	fmt.Println("------------------------------ESCOLHA UM JOGO PARA VER OS NÚMEROS SORTEADOS -----------------")
+	i := 1
+	fmt.Print("Digite um concurso entre os ",df.Nrow()  ,". ou 0 para sair do programa:  ")
+	fmt.Scan(&i)
+
+	for i != 0 {
+		
+		fmt.Println(df.Subset(df.Nrow() - i))
+		fmt.Println("------------------------------ESCOLHA OUTRO JOGO PARA VER OS NÚMEROS SORTEADOS -----------------")
+		fmt.Println("")
+		fmt.Print("Digite um concurso entre os ",df.Nrow()  ,". ou 0 para sair do programa:  ")
+		fmt.Scan(&i)
+	}
+	fmt.Println("")
 	fmt.Println("---------------------------O SISTEMA AGRADECE SUA VISITA-----------------------------")
 	fmt.Println("")
+
 	file.Close()
 }
 
