@@ -19,9 +19,17 @@ func main() {
 	}
 
 	df := dataframe.ReadCSV(file)
-	fmt.Println("Foram analisados ",df.Nrow(), " jogos")
 
-	numeroescolhido := 15
+	fmt.Println("")
+	fmt.Println("---------------------------ANÁLISE DA MEGASENA-------------------------------")
+	fmt.Println("")
+	fmt.Print("Digite um número para saber a frequência entre os sorteios:   ")
+	
+
+	numeroescolhido := 1
+	fmt.Scan(&numeroescolhido)
+	
+	for numeroescolhido != 0 {	
 	
 
 	fil := df.Filter(
@@ -57,9 +65,27 @@ func main() {
 		},
 		
 )
-	
-	fmt.Println("O número 23 apareceu em ",fil.Nrow(), " jogos analisados")
 
+
+
+	fmt.Println("")
+	fmt.Println("----------------------------ANÁLISE DO NÚMERO ESCOLHIDO-----------------------------")
+	fmt.Println("")
+	fmt.Println("Total de jogos analisados:", df.Nrow())	
+	fmt.Println("Número escolhido ", numeroescolhido)
+	fmt.Println("Apareceu em: ", fil.Nrow(), " sorteios")
+	fmt.Println("Em porcentagem isto significa: ",(float64(fil.Nrow()) / float64(df.Nrow()))*100., "%" )
+	fmt.Println("")
+
+	fmt.Println("--------------------------------------OUTRA ANÁLISE ?-----------------------------------------")
+	fmt.Println("")
+	fmt.Print("Digite um número ou 0 para sair do programa: ")
+	fmt.Scan(&numeroescolhido)
+
+	}	
+	fmt.Println("")
+	fmt.Println("---------------------------O SISTEMA AGRADECE SUA VISITA-----------------------------")
+	fmt.Println("")
 	file.Close()
 }
 
