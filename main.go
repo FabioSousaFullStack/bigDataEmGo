@@ -21,7 +21,7 @@ func main() {
 	df := dataframe.ReadCSV(file)
 
 	fmt.Println("")
-	fmt.Println("---------------------------ANÁLISE DA MEGASENA-------------------------------")
+	fmt.Println("---------------------------ANÁLISE DA MEGA SENA-------------------------------")
 	fmt.Println("")
 	fmt.Print("Digite um número para saber a frequência entre os sorteios:   ")
 	
@@ -81,12 +81,13 @@ func main() {
 
 	fmt.Println("--------------------------------------OUTRA ANÁLISE ?-----------------------------------------")
 	fmt.Println("")
-	fmt.Print("Digite um número ou 0 para sair do programa: ")
+	fmt.Print("Digite um número ou 0 para realizar outro tipo de análise: ")
 	fmt.Scan(&numeroescolhido)
 
 	}	
 	fmt.Println("")
 	fmt.Println("------------------------------ESCOLHA UM JOGO PARA VER OS NÚMEROS SORTEADOS -----------------")
+	fmt.Println("")
 	i := 1
 	fmt.Print("Digite um concurso entre os ",df.Nrow()  ,". ou 0 para sair do programa:  ")
 	fmt.Scan(&i)
@@ -98,6 +99,7 @@ func main() {
 		fmt.Println("")
 		fmt.Print("Digite um concurso entre os ",df.Nrow()  ,". ou 0 para sair do programa:  ")
 		fmt.Scan(&i)
+		fmt.Println("")
 	}
 	fmt.Println("")
 	fmt.Println("---------------------------O SISTEMA AGRADECE SUA VISITA-----------------------------")
